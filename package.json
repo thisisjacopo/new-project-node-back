@@ -1,0 +1,30 @@
+{
+  "name": "new-project-back",
+  "version": "1.0.0",
+  "description": "new-project-backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisisjacopo/new-project-node-back.git"
+  },
+  "keywords": [
+    "nodejs",
+    "backend",
+    "api"
+  ],
+  "author": "jacopo rodighiero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisisjacopo/new-project-node-back/issues"
+  },
+  "homepage": "https://github.com/thisisjacopo/new-project-node-back#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11",
+    "morgan": "^1.10.0"
+  }
+}
