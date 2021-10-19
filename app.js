@@ -15,6 +15,7 @@ require("dotenv").config();
 
 // MONGOOSE CONNECTION
 mongoose
+//NEEDING NEW CLUSTER AND CONNECTION FROM ATLAS, THEN BUILD ROUTERS, CHECK DOC FOR MONGODB 4.4
   .connect(process.env.MONGODB_URI, {
     keepAlive: true,
     useNewUrlParser: true,
